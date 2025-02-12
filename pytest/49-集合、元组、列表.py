@@ -1,0 +1,17 @@
+a= (1,2,2,3)
+b=[1,2,2,3]
+c={1,2,2,3}
+d=set(b)
+e = list(d)
+print(type(a))
+print(a)
+print(type(b))
+print(b)
+print(type(c))
+print(c)
+print(type(d))
+print(d)
+print(type(e))
+print(e)
+c.update(d)
+print(c)
